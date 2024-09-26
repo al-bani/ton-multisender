@@ -1,0 +1,24 @@
+{
+  "name": "autosend-ton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "dotenv": "^16.4.5",
+    "ton": "^13.9.0",
+    "ton-crypto": "^3.2.0",
+    "tonweb": "^0.0.66",
+    "tonweb-mnemonic": "^1.0.1"
+  }
+}
